@@ -1,8 +1,5 @@
-// README.md
-/*
 # SpaceX Data Viewer
-
-This is a Next.js application built to showcase data consumption from the SpaceX API. It uses the latest App folder structure and incorporates TypeScript and Tailwind CSS for styling.
+Showcase data consumption from the SpaceX API. It uses the latest App folder structure and incorporates TypeScript and Tailwind CSS for styling.
 
 ## Features
 - Two pages: Launches and Rockets
@@ -26,4 +23,3 @@ This is a Next.js application built to showcase data consumption from the SpaceX
 - Add more endpoints by extending `utils/api.ts`.
 - Introduce state management with libraries like Redux if needed.
 - Add tests with Jest and React Testing Library.
-*/
