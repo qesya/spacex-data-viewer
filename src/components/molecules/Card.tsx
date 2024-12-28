@@ -6,11 +6,13 @@ type CardProps = {
 };
 export default function Card({ title, description }: CardProps) {
   return (
-    <div className="border rounded p-4 shadow hover:shadow-lg transition">
+    <div className="relative flex flex-col group p-5 bg-white border border-white rounded-lg shadow shadow-slate-200 hover:border-slate-500 hover:shadow-lg transition-shadow duration-300">
       <Text as="h2" className="text-xl font-bold">
         {title}
       </Text>
-      <Text as="p">{description}</Text>
+      <Text as="p" className="text-slate-500">
+        {description}
+      </Text>
     </div>
   );
 }

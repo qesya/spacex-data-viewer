@@ -8,10 +8,15 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      keyframes: {
+        diagonalFill: {
+          '0%': { backgroundPosition: 'top left' },
+          '100%': { backgroundPosition: 'bottom right' },
+        }
       },
+      animation: {
+        diagonalFill: 'diagonalFill 1s ease-in-out forwards'
+      }
     },
   },
   plugins: [],

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<RootLayoutProps>) {
   return (
     <html lang="en" className={poppins.className}>
-      <body className="antialiased flex flex-col flex-1 max-w-screen h-screen">
+      <body className="antialiased flex flex-col flex-1 max-w-screen h-screen bg-slate-100">
         <Navbar />
         <main className="flex-1 overflow-y-auto">{children}</main>
       </body>
